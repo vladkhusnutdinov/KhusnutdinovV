@@ -118,7 +118,7 @@ class DataSet:
 
 class InputConnect:
     def __init__(self):
-        self.file_name = input('Введите название файла: ')
+        self.file_name = input('Введите название супергероя: ')
         self.vacancy_name = input('Введите название профессии: ')
 
         all_data = DataSet(self.file_name, self.vacancy_name)
